@@ -2,7 +2,7 @@ using System;
 
 namespace ReactiveRx.Sequences.Extensions
 {
-public static class ExtensionMethods
+    public static class ExtensionMethods
     {
         public static IDisposable Inspect<T>(this IObservable<T> self, string name)
         {
